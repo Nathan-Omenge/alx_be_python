@@ -5,4 +5,4 @@ current_age = int(input("How Old Are You?: "))
 future_age = current_age + 27
 
 # Displaying the Results
-print("In 2050, you will be", future_age, "years old. ")
+print(f"In 2050, you will be {future_age} years old. ")
