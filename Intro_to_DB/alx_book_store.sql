@@ -1,5 +1,13 @@
--- Create the database
-CREATE DATABASE IF NOT EXISTS alx_book_store;
+-- Drop all existing tables and database
+DROP TABLE IF EXISTS Order_Details;
+DROP TABLE IF EXISTS Orders;
+DROP TABLE IF EXISTS Customers;
+DROP TABLE IF EXISTS Books;
+DROP TABLE IF EXISTS Authors;
+DROP DATABASE IF EXISTS alx_book_store;
+
+-- Create the database again
+CREATE DATABASE alx_book_store;
 USE alx_book_store;
 
 -- Authors table
